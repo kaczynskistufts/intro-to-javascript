@@ -10,7 +10,15 @@ function calculate() {
     if(operator=="plus") {
         result = input1 + input2;
     }
-    //TODO: add functionality for other operations
+    else if(operator == "minus"){
+        result = input2 - input1;
+    }
+    else if(operator == "divided_by"){
+        result = int(input2 / input1);
+    }
+    else if(operator == "multiplied_by"){
+        result = int(input2 * input1);
+    }
 
     console.log(typeof result);
     result_text.innerHTML = "= " + result;
