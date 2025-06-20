@@ -14,7 +14,7 @@ function calculate() {
         result = input2 - input1;
     }
     else if(operator == "divided_by"){
-        result = int(input2 / input1);
+        result = int(input1 / input2);
     }
     else if(operator == "multiplied_by"){
         result = int(input2 * input1);
